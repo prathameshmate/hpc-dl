@@ -1,0 +1,4 @@
+g++ parallel_min_max_sum_avg.cpp -o parallel_min_max_sum_avg -fopenmp
+./parallel_min_max_sum_avg
+
+g++ parallel_dfs.cpp -lgomp -o parallel_dfs.exe
